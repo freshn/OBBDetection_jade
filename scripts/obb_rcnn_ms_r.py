@@ -12,4 +12,5 @@ module load python/anaconda3
 source activate obbdet
 
 export PYTHONPATH=./
-./tools/dist_train.sh configs/obb/oriented_rcnn/faster_rcnn_orpn_r50_fpn_1x_ms_rr_dota10.py 1 --options optimizer.lr=0.005 --work-dir work_dirs/obb_rcnn_ms_r/
+./tools/dist_train.sh configs/obb/oriented_rcnn/faster_rcnn_orpn_r50_fpn_1x_ms_rr_dota10.py 1 \
+    --options optimizer.lr=0.005 --work-dir work_dirs/obb_rcnn_ms_r/

@@ -12,5 +12,5 @@ module load python/anaconda3
 source activate obbdet
 
 export PYTHONPATH=./
-python tools/test.py configs/obb/neg_copy/neg_copy8.py work_dirs/neg_copy8/epoch_16.pth \
+python tools/test.py configs/obb/neg_copy/neg_copy8.py work_dirs/neg_copy8/epoch_24.pth \
 --format-only --options save_dir=neg_copy8

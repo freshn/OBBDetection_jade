@@ -65,7 +65,8 @@ class OBBBaseDetector(BaseDetector):
             win_name=win_name,
             show=show,
             wait_time=wait_time,
-            out_file=out_file)
+            out_file=out_file,
+            with_text=False)
 
         if not (show or out_file):
             warnings.warn('show==False and out_file is not specified, only '
